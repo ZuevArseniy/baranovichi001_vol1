@@ -1,0 +1,86 @@
+body{
+    line-height:1.6;
+    font-size:18px;
+    color:#444;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3{line-height:1.2}
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    box-shadow:0 0 10px 0 rgba(0,0,0,.2);
+}
+.content {
+    min-height: 300px;
+    display: flex; 
+    padding: 20px;
+}
+.content article {
+    flex: 2;
+    padding: 20px;
+}
+.content aside {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.recent ul {
+    list-style: none;
+    padding: 0
+}
+.recent ul li {
+    margin-bottom: 10px;
+}
+.recent ul li a {
+    line-height: 1.0;
+    color: #666
+}
+.about-me img {
+    float: left;
+    margin-right: 10px
+}
+aside .aside-inner {
+    border-left: 1px solid lightgrey;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+footer {
+    background: #222;
+    padding: 20px;
+    color: white;
+}
+  
+.pull-right {
+    float:right;
+}
+
+header {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+header .logo {
+    height: 50px;
+    margin: 25px auto;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    background: deepskyblue;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #00b7f5;
+  }
